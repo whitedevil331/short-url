@@ -35,8 +35,5 @@ class SuperAdminSeeder extends Seeder
             ]);
         }
 
-        $this->command->info('SuperAdmin created successfully!');
-        $this->command->info('Email: ' . $email);
-        $this->command->info('Password: password123');
     }
 }
